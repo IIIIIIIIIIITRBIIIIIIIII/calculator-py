@@ -31,7 +31,7 @@ if devide == "Y" or devide == "y":
     if b != 0 or a != 0:
         print( a / b)
     else:
-        print("Error: Cannot divide by zero")
+        print("cannot divide by zero")
 elif devide == "N" or devide == "n":
     print("NULL")
 else:
