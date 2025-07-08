@@ -4,7 +4,7 @@ minus =input("minus(-) Y/N")
 plus =input("plus(+) Y/N")
 multiple =input("multiple(*) Y/N")
 devide =input("devide(/) Y/N")
-power =input("minus(**) Y/N")
+power =input("power(**) Y/N")
 
 if minus == "Y" or minus == "y":
     print( a - b)
