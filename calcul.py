@@ -4,7 +4,7 @@ minus =input("minus(-) Y/N")
 plus =input("plus(+) Y/N")
 multiple =input("multiple(*) Y/N")
 devide =input("devide(/) Y/N")
-power =input("minus(**) Y/N")
+power =input("power(**) Y/N")
 
 if minus == "Y" or minus == "y":
     print( a - b)
@@ -28,10 +28,7 @@ else:
     print("enter a nuber")
 
 if devide == "Y" or devide == "y":
-    if b != 0 or a != 0:
         print( a / b)
-    else:
-        print("cannot divide by zero")
 elif devide == "N" or devide == "n":
     print("NULL")
 else:
